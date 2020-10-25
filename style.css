@@ -1,0 +1,32 @@
+form{
+    display:flex;
+    flex-direction:column;
+    padding: 50px;
+    max-width: 40%;
+    border: 1px black solid;
+}
+input{
+    padding:10px;
+    max-width: 200px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px black solid;
+}
+#submit{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(32, 32, 255);
+    border: none;
+    border-radius: 7px;
+    margin: 20px;
+    padding: 10px;
+    max-width: 150px;
+}
