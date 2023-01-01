@@ -27,7 +27,7 @@ function test_input($data){
       
       while($row = mysqli_fetch_assoc($var)) {
    
-        array_push($tab_exist,$row["Email"]);
+        array_push($tab_exist,$row["email"]);
       
     
     }

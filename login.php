@@ -22,7 +22,7 @@ function test_input($data){
       
       while($row = mysqli_fetch_assoc($var)) {
    
-        $tab_exist[$row["Email"]]=$row["password"];
+        $tab_exist[$row["email"]]=$row["password"];
       
     
     }
